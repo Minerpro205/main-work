@@ -20,6 +20,10 @@ h1{color:black;}
 
 #purple:hover{color:purple; text-decoration: underline; text-transform: uppercase}
 
+#right,#left{padding: 4%}
+#right{text-align:right;}
+#left{text-align:left;}
+
 /* "Animations" */
 /* #disappear:hover{color: rgba(0,0,0,0)} */
 
