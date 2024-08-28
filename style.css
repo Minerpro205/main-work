@@ -36,7 +36,7 @@ p{color: black;}
 /* Form styling */
 #form1{color: black;}
 
-table{margin-left: auto;margin-right: auto}
+table, th, td{border: 1px solid rgb(0, 0, 0);border-collapse: collapse;margin-left: auto;margin-right: auto;}
 
 #githubrepo{color:blue; text-decoration-line: underline}
 
@@ -49,7 +49,7 @@ table{margin-left: auto;margin-right: auto}
 /* body{content:'';position:fixed;top:0;left:0;opacity:0.9;background:rgb(148, 90, 90);width:100%;height:100%;pointer-events:all;z-index:1000;} */
 
 /* Gay text - Vv */
-#lorem{background: repeating-linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);-webkit-background-clip: text;-webkit-text-fill-color: transparent; text-align: left; padding-left: 2%}
+#lorem{background: repeating-linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);background-clip: text;-webkit-text-fill-color: transparent; text-align: left; padding-left: 2%}
 
 #buttonjs{background: black;color:green}
 
@@ -88,6 +88,20 @@ table{margin-left: auto;margin-right: auto}
     100% {color: rgba(0,0,0,0)}
 
 }
+
+/* Experimantal animation
+#kaboom{
+    position:absolute;
+    animation:linear infinite;
+    animation-name: kaboomani;
+    animation-duration: 5s;
+}     
+@keyframes kaboomani {
+    0% { left: 0;}
+    50%{ left: calc(100% - 150px); }
+    100%{ left: 0;}
+} */
+
 
 /* .col > h1{border: 1px solid; border-top: 0px}
 .col > h3{border: 1px solid;} */

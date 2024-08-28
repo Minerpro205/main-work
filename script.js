@@ -4,9 +4,6 @@ let typeOfGreeting= "Hello"
 
 function morning() {
     alert("It is currently not morning")
-
-
-
 }
 
 function greet(typeOfGreeting, name) {
