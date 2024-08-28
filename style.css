@@ -5,7 +5,7 @@ body{background-color: #BFC5CB;text-align: center; line-height: 150%;padding-bot
 /* Set undefined headers to black */
 h1{color:black;}
 
-#alert1{padding:1%;}
+#alert1{padding:1%;width: max-content !important;max-height: max-content !important; margin:auto;padding-left: 2%;padding-right:2%}
 
 #c1{padding-top:5%}
 
