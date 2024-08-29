@@ -1,3 +1,5 @@
+const { capitalize } = require("underscore.string");
+
 // var num1 = 2
 // var num2 = 5
 // var test1 = num1 % 2
@@ -21,29 +23,40 @@
 // else if(number ==3){console.log("That's 3")}
 // else{console.log("That's not 1-3")}
 
-let namel = "Jackal"
+let namel = "evaaaAa"
 let nameu = namel.toUpperCase();
 
 switch(nameu){
     case 'EVA':
+        nameu = namel.toLowerCase();
+        namel = capitalize(namel)  
         console.log("That's Eva, she's so cute!")
         break;
 
     case 'AYLA':
+        nameu = namel.toLowerCase();
+        namel = capitalize(namel)  
         console.log("That's Ayla, she's so chonky!")
         break;
 
     case 'JUNI':
+        nameu = namel.toLowerCase();
+        namel = capitalize(namel)  
         console.log("That's Juni, she's so tiny!")
         break;
 
         case 'JACK':
         case 'DENNIS':
         case "NATHAN":
+            nameu = namel.toLowerCase();
+            namel = capitalize(namel)  
             console.log("I know", nameu, "from scouts!")
             break;
-    
-    default: console.log("I don't know who", namel, "is")
+      
+    default:
+    namel = namel.toLowerCase()
+    namel = capitalize(namel);
+    console.log("I don't know who", namel, "is")
 }
 // var counter = 100
 
