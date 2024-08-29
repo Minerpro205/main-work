@@ -56,8 +56,7 @@ switch(nameu){
     default:
     namel = namel.toLowerCase()
     namel = capitalize(namel);
-    console.log("I don't know who", namel, "is")
-}
+    console.log("I don't know who", namel, "is")}
 // var counter = 100
 
 // while (counter > 0){
