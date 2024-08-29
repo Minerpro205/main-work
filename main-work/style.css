@@ -1,0 +1,117 @@
+body{background-color: #BFC5CB;text-align: center; line-height: 150%;padding-bottom: 10%;}
+
+/* Navigation bar */
+.navbar{overflow:hidden;background-color:#333;font-family: Arial, Helvetica, sans-serif;}
+
+.navbar a{float:left;font-size:16;color:white;text-align:center;padding: 14px 16px;text-decoration: none;}
+
+.navbar a:hover, .dropdown:hover .dropbtn{background-color:red}
+
+#topdiv{padding-left: 1%;padding-right:1%;border: 3px solid; border-radius: 10px; border-collapse:inherit;width: max-content !important;max-height: max-content !important; margin:auto;}
+
+/* Set undefined headers to black */
+h1{color:black;}
+
+#alert1{padding:1%;width: max-content !important;max-height: max-content !important; margin:auto;padding-left: 2%;padding-right:2%}
+
+#c1{padding-top:5%}
+
+/* Parent/child element management, show hover borders, and wrap size around text automagically */
+.parentcolor{border-bottom: 1px solid; text-align: center;padding:2dvb}
+.childcolor{width: max-content !important;max-height: max-content !important;padding: 1px; border:1px solid cyan; text-align: center; margin:auto;border-collapse:collapse;}
+
+/* Text colors */
+#aqua:hover {color:aqua; text-transform: uppercase;}
+
+#green:hover{color:lime; text-decoration: underline; text-decoration-style: dashed; text-decoration-thickness: 5px}
+
+#purple:hover{color:purple; text-decoration: underline; text-transform: uppercase}
+
+#right,#left{padding: 4%}
+#right{text-align:right;}
+#left{text-align:left;}
+
+/* "Animations" */
+/* #disappear:hover{color: rgba(0,0,0,0)} */
+
+#appear{color: rgba(0,0,0,0)}
+
+#appear:hover{color: rgba(0,0,0,1)}
+
+/* Set undefined paragraphs to rgb(170, 47, 30) */
+p{color: black;}
+/* Form styling */
+#form1{color: black;}
+
+table, th, td{border: 1px solid rgb(0, 0, 0);border-collapse: collapse;margin-left: auto;margin-right: auto;}
+
+#githubrepo{color:blue; text-decoration-line: underline}
+
+#githubrepo:hover{color:blue; text-decoration-line: underline}
+
+#saladseer{padding: 0px; border-style: dashed; border-width: thin; margin:auto}
+
+#placeholderthisdoesnothingrightnowdontevenworryaboutitthisisfinetrustmebro{image-rendering: auto;}
+
+/* body{content:'';position:fixed;top:0;left:0;opacity:0.9;background:rgb(148, 90, 90);width:100%;height:100%;pointer-events:all;z-index:1000;} */
+
+/* Gay text - Vv */
+#lorem{background: repeating-linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);background-clip: text;-webkit-text-fill-color: transparent; text-align: left; padding-left: 2%}
+
+#buttonjs{background: black;color:green}
+
+/* Extra gay text */
+
+.rainbow-text, #nothingfancy:hover, #githubrepo:hover{
+    display: inline-block;
+    animation: rainbow-animation 5.0s linear infinite;
+}
+
+@keyframes rainbow-animation{
+    0% { color: cyan; }
+    14% { color: orange; }
+    28% { color: yellow; }
+    42% { color: green; }
+    57% { color: blue; }
+    71% { color: indigo; }
+    81% { color: violet; }
+    90% { color: red; }
+    100% { color: cyan}
+}
+
+#disappear:hover{
+
+    display: inline-block;
+    text-align: center;
+    animation: disappear 1.0s linear;
+    animation-iteration-count: 1;
+}
+
+@keyframes disappear{
+
+
+    0% {color: rgba(0, 0, 0, 1)}
+    50% {color: rgba(0,0,0,0.5)}
+    100% {color: rgba(0,0,0,0)}
+
+}
+
+/* Experimantal animation
+#kaboom{
+    position:absolute;
+    animation:linear infinite;
+    animation-name: kaboomani;
+    animation-duration: 5s;
+}     
+@keyframes kaboomani {
+    0% { left: 0;}
+    50%{ left: calc(100% - 150px); }
+    100%{ left: 0;}
+} */
+
+
+/* .col > h1{border: 1px solid; border-top: 0px}
+.col > h3{border: 1px solid;} */
+.row {border: 1px solid; border-radius: 10px; border-collapse:inherit;}
+
+#bottomline{line-height: 500%;}
