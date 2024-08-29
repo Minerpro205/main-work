@@ -45,7 +45,6 @@ switch(nameu){
     
     default: console.log("I don't know who", namel, "is...")
 }
-
 // var counter = 100
 
 // while (counter > 0){
