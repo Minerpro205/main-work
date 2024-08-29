@@ -1,4 +1,11 @@
-body{background-color: #BFC5CB;text-align: center; line-height: 150%;padding-bottom: 10%;padding-top: 10%}
+body{background-color: #BFC5CB;text-align: center; line-height: 150%;padding-bottom: 10%;}
+
+/* Navigation bar */
+.navbar{overflow:hidden;background-color:#333;font-family: Arial, Helvetica, sans-serif;}
+
+.navbar a{float:left;font-size:16;color:white;text-align:center;padding: 14px 16px;text-decoration: none;}
+
+.navbar a:hover, .dropdown:hover .dropbtn{background-color:red}
 
 #topdiv{padding-left: 1%;padding-right:1%;border: 3px solid; border-radius: 10px; border-collapse:inherit;width: max-content !important;max-height: max-content !important; margin:auto;}
 

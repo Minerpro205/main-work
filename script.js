@@ -11,6 +11,7 @@ function greet(typeOfGreeting, name) {
 
 console.log(typeOfGreeting)
 }
+console.log("hello")
 
 // let name = ["Miner", "Mc", 18, "Web development", "Havoc"]
 
