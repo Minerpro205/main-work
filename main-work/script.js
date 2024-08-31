@@ -81,3 +81,5 @@ switch(nameu){
 // } console.log("End of counting")
 
 // for (var i = 0; i < 1001; i++){console.log(i)} console.log("That's a lot of numbers")
+
+var username = document.getElementById('usernameInput')
