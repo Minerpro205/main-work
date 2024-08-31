@@ -7,6 +7,8 @@ body{background-color: #BFC5CB;text-align: center; line-height: 150%;padding-bot
 
 .navbar a:hover, .dropdown:hover .dropbtn{background-color:red}
 
+#navbarp{padding-bottom:3%}
+
 #topdiv{padding-left: 1%;padding-right:1%;border: 3px solid; border-radius: 10px; border-collapse:inherit;width: max-content !important;max-height: max-content !important; margin:auto;}
 
 /* Set undefined headers to black */
