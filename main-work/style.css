@@ -64,11 +64,12 @@ table, th, td{border: 1px solid rgb(0, 0, 0);border-collapse: collapse;margin-le
 
 .rainbow-text, #nothingfancy:hover, #githubrepo:hover{
     display: inline-block;
-    animation: rainbow-animation 5.0s linear infinite;
+    animation: rainbow-animation 5.0s linear infinite forwards;
 }
 
 @keyframes rainbow-animation{
-    0% { color: cyan; }
+    0% {color: black}
+    5% { color: rgb(10, 87, 87); }
     14% { color: orange; }
     28% { color: yellow; }
     42% { color: green; }
@@ -76,7 +77,12 @@ table, th, td{border: 1px solid rgb(0, 0, 0);border-collapse: collapse;margin-le
     71% { color: indigo; }
     81% { color: violet; }
     90% { color: red; }
-    100% { color: cyan}
+    95% { color: rgb(10, 87, 87); }
+    100% {color: black}
+}
+
+#disappear{
+    transition: all 1.0s;
 }
 
 #disappear:hover{
@@ -94,6 +100,9 @@ table, th, td{border: 1px solid rgb(0, 0, 0);border-collapse: collapse;margin-le
     100% {color: rgba(0,0,0,0)}
 
 }
+
+#shrink{font-size:32px;transition: all 1s;}
+#shrink:hover{font-size:10px}
 
 /* Experimantal animation
 #kaboom{
