@@ -1,47 +1,63 @@
+console.log("Hello console viewer")
+console.log("")
+
 const { capitalize } = require("underscore.string");
 
-// var num1 = 2
-// var num2 = 5
-// var test1 = num1 % 2
-// var test2 = num2 % 2
-// var result1 = test1 == 0
-// var result2 = test2 == 0
+var num1 = 2
+var num2 = 5
+var test1 = num1 % 2
+var test2 = num2 % 2
+var result1 = test1 == 0
+var result2 = test2 == 0
 
-// console.log("Is", num1, "an even number?", result1)
-// console.log("Is", num2, "an even number?", result2)
+console.log("Is", num1, "an even number?", result1)
+console.log("Is", num2, "an even number?", result2)
 
-// var added = num1 + num2
-// console.log(added)
+var added = num1 + num2
+console.log(added)
 
 // Number variables
 
-// var number = 2
+var number = 0
 
-// if(number == 0){console.log("That's 0")}
-// else if(number ==1){console.log("That's 1")}
-// else if(number ==2){console.log("That's 2")}
-// else if(number ==3){console.log("That's 3")}
-// else{console.log("That's not 1-3")}
+if(number == 0){console.log("That's 0\n")}
+else if(number ==1){console.log("That's 1\n")}
+else if(number ==2){console.log("That's 2\n")}
+else if(number ==3){console.log("That's 3\n")}
+else{console.log("That's not 0-3\n")}
 
-let namel = "evaaaAa"
+var checkn = 57
+
+switch(checkn){
+    case 1:
+    case 2:
+    case 3:
+    case 4:
+    case 5:
+        console.log("That's 1-5")
+    break;
+    default: console.log(checkn, "is not 1-5\n")
+}
+
+let namel = "nathan"
 let nameu = namel.toUpperCase();
 
 switch(nameu){
     case 'EVA':
         nameu = namel.toLowerCase();
-        namel = capitalize(namel)  
+        nameu = capitalize(nameu)  
         console.log("That's Eva, she's so cute!")
         break;
 
     case 'AYLA':
         nameu = namel.toLowerCase();
-        namel = capitalize(namel)  
+        nameu = capitalize(nameu)  
         console.log("That's Ayla, she's so chonky!")
         break;
 
     case 'JUNI':
         nameu = namel.toLowerCase();
-        namel = capitalize(namel)  
+        nameu = capitalize(nameu)  
         console.log("That's Juni, she's so tiny!")
         break;
 
@@ -49,7 +65,7 @@ switch(nameu){
         case 'DENNIS':
         case "NATHAN":
             nameu = namel.toLowerCase();
-            namel = capitalize(namel)  
+            nameu = capitalize(nameu)  
             console.log("I know", nameu, "from scouts!")
             break;
       

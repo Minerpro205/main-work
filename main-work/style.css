@@ -83,7 +83,7 @@ table, th, td{border: 1px solid rgb(0, 0, 0);border-collapse: collapse;margin-le
 
     display: inline-block;
     text-align: center;
-    animation: disappear 1.0s linear;
+    animation: disappear 1.0s forwards;
     animation-iteration-count: 1;
 }
 
@@ -91,7 +91,6 @@ table, th, td{border: 1px solid rgb(0, 0, 0);border-collapse: collapse;margin-le
 
 
     0% {color: rgba(0, 0, 0, 1)}
-    50% {color: rgba(0,0,0,0.5)}
     100% {color: rgba(0,0,0,0)}
 
 }
