@@ -1,8 +1,6 @@
 console.log("Hello console viewer")
 console.log("")
 
-const { capitalize } = require("underscore.string");
-
 var num1 = 2
 var num2 = 5
 var test1 = num1 % 2
@@ -18,7 +16,7 @@ console.log(added)
 
 // Number variables
 
-var number = 0
+var number = 5
 
 if(number == 0){console.log("That's 0\n")}
 else if(number ==1){console.log("That's 1\n")}
@@ -36,43 +34,45 @@ switch(checkn){
     case 5:
         console.log("That's 1-5")
     break;
-    default: console.log(checkn, "is not 1-5\n")
+    default: console.log("Result:",checkn, "is not 1-5")
 }
 
-let namel = "nathan"
-let nameu = namel.toUpperCase();
+// const { capitalize } = require("underscore.string");
 
-switch(nameu){
-    case 'EVA':
-        nameu = namel.toLowerCase();
-        nameu = capitalize(nameu)  
-        console.log("That's Eva, she's so cute!")
-        break;
+// let namel = "nathan"
+// let nameu = namel.toUpperCase();
 
-    case 'AYLA':
-        nameu = namel.toLowerCase();
-        nameu = capitalize(nameu)  
-        console.log("That's Ayla, she's so chonky!")
-        break;
+// switch(nameu){
+//     case 'EVA':
+//         nameu = namel.toLowerCase();
+//         nameu = capitalize(nameu)  
+//         console.log("That's Eva, she's so cute!")
+//         break;
 
-    case 'JUNI':
-        nameu = namel.toLowerCase();
-        nameu = capitalize(nameu)  
-        console.log("That's Juni, she's so tiny!")
-        break;
+//     case 'AYLA':
+//         nameu = namel.toLowerCase();
+//         nameu = capitalize(nameu)  
+//         console.log("That's Ayla, she's so chonky!")
+//         break;
 
-        case 'JACK':
-        case 'DENNIS':
-        case "NATHAN":
-            nameu = namel.toLowerCase();
-            nameu = capitalize(nameu)  
-            console.log("I know", nameu, "from scouts!")
-            break;
+//     case 'JUNI':
+//         nameu = namel.toLowerCase();
+//         nameu = capitalize(nameu)  
+//         console.log("That's Juni, she's so tiny!")
+//         break;
+
+//         case 'JACK':
+//         case 'DENNIS':
+//         case "NATHAN":
+//             nameu = namel.toLowerCase();
+//             nameu = capitalize(nameu)  
+//             console.log("I know", nameu, "from scouts!")
+//             break;
       
-    default:
-    namel = namel.toLowerCase()
-    namel = capitalize(namel);
-    console.log("I don't know who", namel, "is")}
+//     default:
+//     namel = namel.toLowerCase()
+//     namel = capitalize(namel);
+//     console.log("I don't know who", namel, "is")}
 // var counter = 100
 
 // while (counter > 0){
@@ -82,4 +82,4 @@ switch(nameu){
 
 // for (var i = 0; i < 1001; i++){console.log(i)} console.log("That's a lot of numbers")
 
-var username = document.getElementById('usernameInput')
+// var username = document.getElementById('usernameInput')
