@@ -11,6 +11,12 @@ body{background-color: #BFC5CB;text-align: center; line-height: 150%;padding-bot
 
 #topdiv{padding-left: 1%;padding-right:1%;border: 3px solid; border-radius: 10px; border-collapse:inherit;width: max-content !important;max-height: max-content !important; margin:auto;}
 
+#topdiv2{padding-left: 1%;padding-right:1%;border: 3px solid; border-radius: 10px; border-collapse:inherit;width: max-content !important;max-height: max-content !important; margin:auto;border-color:cyan}
+
+#topdivpad{padding-top: 2%}
+
+#spancolor {color:rgb(154, 42, 206)}
+
 /* Set undefined headers to black */
 h1{color:black;}
 

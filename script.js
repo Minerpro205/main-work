@@ -36,6 +36,62 @@ switch(checkn){
     break;
     default: console.log("Result:",checkn, "is not 1-5")
 }
+console.log("")
+var games = ["Undertale", "Minecraft", "Terraria", "DST", "ONI", "Subnautica", "Stardew Valley", "Town of Salem"];
+
+for (var i = 0; i < games.length; i++){
+    console.log(games[i])
+
+};
+
+
+// Game stats
+var stats1 = {}
+stats1.level = 5;
+stats1.nextlevel = stats1.level + 1;
+stats1.speed = 15.2
+stats1.health = 1295
+stats1.ability = "Overcharge"
+
+console.log(stats1)
+
+var stats2 = {
+    level: 1,
+    speed: 14,
+    health: 1190,
+    ability: "None",
+}
+console.log(stats2)
+
+var foods = {};
+foods["meat"] = "steak"
+foods["fruit"] = "apple"
+foods["vegetable"] = "carrot"
+console.log(foods)
+
+function arrayBuilder(one, two, three) {
+    var arr = [];
+    arr.push(one);
+    arr.push(two);
+    arr.push(three);
+    return(arr);
+}
+
+var outputArr = arrayBuilder("test", "test2", "test3")
+
+console.log(outputArr)
+
+// Random number generator
+Math.random();
+var decimal = Math.random();
+decimal = decimal * 100;
+decimal = Math.trunc(decimal)
+console.log(decimal)
+
+// Output all letters
+let myname = "Miner"
+
+for (var i = 0; i < myname.length; i++) {console.log(myname[i])}
 
 // const { capitalize } = require("underscore.string");
 
