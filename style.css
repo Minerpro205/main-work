@@ -109,7 +109,7 @@ table, th, td{border: 1px solid rgb(0, 0, 0);border-collapse: collapse;margin-le
 
 }
 
-#shrink{font-size:32px;transition: all 1s;}
+#shrink{font-size:40px;transition: all 1.5s;}
 #shrink:hover{font-size:10px}
 
 /* Experimantal animation
