@@ -94,6 +94,17 @@ let myname = "Miner"
 for (var i = 0; i < myname.length; i++) {console.log(myname[i])}
 
 var test1 = ("Finding the letter z in this sentence".indexOf("z"));
+
+try { throw new ReferenceError(); } catch(err) {
+console.log(err)
+console.log("Reference error found, check console for details")}
+
+console.log(auserhere)
+
+
+
+
+
 // const { capitalize } = require("underscore.string");
 
 // let namel = "nathan"
